@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="23.433657">
+<testcase classname="Purchase a pillow" name="Mindtran Test Scenario" time="12.232656">
+<system-out><![CDATA[Given user is already on Shopping Page......................................passed
+Then user click on Buy now button...........................................passed
+Then user checkout from the cart............................................passed
+Then user select the payment button.........................................passed
+Then user select Credit card as payment method..............................passed
+And user enter the card details "4811 1111 1111 1114" and "05/20" and "123".passed
+Then user check the paynow button is displayed..............................passed
+Then user click on the pay button...........................................passed
+Then user close the browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Purchase a pillow" name="Mindtran Test Scenario 2" time="11.201001">
+<system-out><![CDATA[Given user is already on Shopping Page......................................passed
+Then user click on Buy now button...........................................passed
+Then user checkout from the cart............................................passed
+Then user select the payment button.........................................passed
+Then user select Credit card as payment method..............................passed
+And user enter the card details "4911 1111 1111 1113" and "05/20" and "123".passed
+Then user check the paynow button is displayed..............................passed
+Then user click on the pay button...........................................passed
+Then user close the browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

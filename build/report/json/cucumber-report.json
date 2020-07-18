@@ -1,0 +1,286 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Mindtran Test Scenario",
+        "description": "",
+        "id": "purchase-a-pillow;mindtran-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8205592500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is already on Shopping Page",
+            "match": {
+              "location": "Payment.user_is_on_Shopping_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87965200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Buy now button",
+            "match": {
+              "location": "Payment.user_click_on_Buy_now_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 190580600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user checkout from the cart",
+            "match": {
+              "location": "Payment.user_checkout_from_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2692185900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user select the payment button",
+            "match": {
+              "location": "Payment.user_clicks_the_payment_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 401213700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select Credit card as payment method",
+            "match": {
+              "location": "Payment.user_select_Credit_card_as_payment_method()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 450350800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the card details \"4811 1111 1111 1114\" and \"05/20\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4811 1111 1111 1114",
+                  "offset": 29
+                },
+                {
+                  "val": "05/20",
+                  "offset": 55
+                },
+                {
+                  "val": "123",
+                  "offset": 67
+                }
+              ],
+              "location": "Payment.user_enter_the_card_details(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37899100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user check the paynow button is displayed",
+            "match": {
+              "location": "Payment.user_check_the_paynow_button_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78392300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on the pay button",
+            "match": {
+              "location": "Payment.user_click_on_the_pay_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88476400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user close the browser",
+            "match": {
+              "location": "Payment.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Mindtran Test Scenario",
+        "description": "",
+        "id": "purchase-a-pillow;mindtran-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8306266100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is already on Shopping Page",
+            "match": {
+              "location": "Payment.user_is_on_Shopping_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60870900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Buy now button",
+            "match": {
+              "location": "Payment.user_click_on_Buy_now_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 226002800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user checkout from the cart",
+            "match": {
+              "location": "Payment.user_checkout_from_the_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1620723900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user select the payment button",
+            "match": {
+              "location": "Payment.user_clicks_the_payment_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 360790300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select Credit card as payment method",
+            "match": {
+              "location": "Payment.user_select_Credit_card_as_payment_method()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 410322600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the card details \"4911 1111 1111 1113\" and \"05/20\" and \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4911 1111 1111 1113",
+                  "offset": 29
+                },
+                {
+                  "val": "05/20",
+                  "offset": 55
+                },
+                {
+                  "val": "123",
+                  "offset": 67
+                }
+              ],
+              "location": "Payment.user_enter_the_card_details(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40623500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user check the paynow button is displayed",
+            "match": {
+              "location": "Payment.user_check_the_paynow_button_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87887600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on the pay button",
+            "match": {
+              "location": "Payment.user_click_on_the_pay_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87513000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user close the browser",
+            "match": {
+              "location": "Payment.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchase a pillow",
+    "description": "",
+    "id": "purchase-a-pillow",
+    "keyword": "Feature",
+    "uri": "C:/Users/R/eclipse-workspace/Assignment/src/test/java/features/sccessScenario.feature"
+  }
+]
